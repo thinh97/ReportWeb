@@ -1,5 +1,5 @@
 CREATE TABLE Report (
     Id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     CreatedAt DATETIME NOT NULL,
-    TeamId INT NOT NULL references Team(Id)
+    UserId INT NOT NULL references Team(Id)
 );
